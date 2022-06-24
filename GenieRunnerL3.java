@@ -54,7 +54,7 @@ public class GenieRunnerL3 extends JFrame implements ActionListener, KeyListener
 	private JPanel panel_13;
 	private JPanel panel_14;
 	
-	private WalkingGoblinL2[][] g2;
+	private WalkingGoblinL3[][] g2;
 	private JPanel panel_15;
 	private JPanel panel_16;
 	private JPanel panel_1;
@@ -225,7 +225,7 @@ public class GenieRunnerL3 extends JFrame implements ActionListener, KeyListener
 		
 		boolean isThere = true;
 		
-		g2 = new WalkingGoblinL2[4][2];
+		g2 = new WalkingGoblinL3[4][2];
 		
 		int x = 0;
 		
@@ -239,7 +239,7 @@ public class GenieRunnerL3 extends JFrame implements ActionListener, KeyListener
 						isThere = false;
 					}
 					if (isThere) {
-					WalkingGoblinL2 g = new WalkingGoblinL2();
+					WalkingGoblinL3 g = new WalkingGoblinL3();
 					if (y == 1) {
 					g.setBounds(i, j, 160, 300);	
 					}
