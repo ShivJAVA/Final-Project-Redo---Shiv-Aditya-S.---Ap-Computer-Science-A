@@ -224,7 +224,7 @@ public class GenieRunnerL2 extends JFrame implements ActionListener, KeyListener
 		
 		boolean isThere = true;
 		
-		g2 = new WalkingGoblinL3[4][2];
+		g2 = new WalkingGoblinL2[4][2];
 		
 		int x = 0;
 		
@@ -238,7 +238,7 @@ public class GenieRunnerL2 extends JFrame implements ActionListener, KeyListener
 						isThere = false;
 					}
 					if (isThere) {
-					WalkingGoblinL3 g = new WalkingGoblinL3();
+					WalkingGoblinL2 g = new WalkingGoblinL2();
 					if (y == 1) {
 					g.setBounds(i, j, 160, 300);	
 					}
